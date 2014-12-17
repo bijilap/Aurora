@@ -15,6 +15,9 @@ java.classpath.push('java/aurora_recommender.jar');
 var activity_recommender = java.newInstanceSync("com.aurora.recommender.RecommendActivity");
 var result = java.callMethodSync(activity_recommender, "getRecommendation",10000,3);
 console.log(result);
+var restaurant_recommender = java.newInstanceSync("com.aurora.recommender.RecommendRestaurant");
+var result = java.callMethodSync(restaurant_recommender, "getRecommendation",10000,3);
+console.log(result);
 
 /* GET home page. */
 router.get('/', function(req, res) {
