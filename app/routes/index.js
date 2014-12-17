@@ -13,7 +13,8 @@ java.classpath.push('java/slf4j-nop-1.7.7.jar');
 java.classpath.push('java/aurora_recommender.jar');
 
 var activity_recommender = java.newInstanceSync("com.aurora.recommender.RecommendActivity");
-java.callMethodSync(activity_recommender, "getRecommendation",10000,3);
+var result = java.callMethodSync(activity_recommender, "getRecommendation",10000,3);
+console.log(result);
 
 /* GET home page. */
 router.get('/', function(req, res) {
