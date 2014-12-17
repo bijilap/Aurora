@@ -1,5 +1,19 @@
 var express = require('express');
 var router = express.Router();
+var java = require("java");
+
+java.classpath.push('java/commons-math3-3.3.jar');
+java.classpath.push('java/guava-18.0.jar');
+java.classpath.push('java/mahout-core-0.9.jar');
+java.classpath.push('java/mahout-integration-0.9.jar');
+java.classpath.push('java/mahout-math-0.9.jar');
+java.classpath.push('java/mysql-connector-java-5.0.8-bin.jar');
+java.classpath.push('java/slf4j-api-1.7.7.jar');
+java.classpath.push('java/slf4j-nop-1.7.7.jar');
+java.classpath.push('java/aurora_recommender.jar');
+
+var activity_recommender = java.newInstanceSync("com.aurora.recommender.RecommendActivity");
+java.callMethodSync(activity_recommender, "getRecommendation",10000,3);
 
 /* GET home page. */
 router.get('/', function(req, res) {
