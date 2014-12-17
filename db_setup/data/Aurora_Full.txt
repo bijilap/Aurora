@@ -1,0 +1,29 @@
+2	2	1	2	2	4	5	1	2	1	1	5	3	5	3	5	4	3	4	5	5	Haven't visited	3	Haven't visited	Haven't visited	Alone	Both
+3	2	2	2	2	2	1	1	5	1	3	4	2	3	3	4	3	5	5	Haven't visited	5	Haven't visited	2	Haven't visited	Haven't visited	With company	Distance
+4	2	2	2	2	5	5	3	2	1	1	4	5	4	4	5	1	3	4	4	2	2	5	2	Haven't visited	With company	Price
+5	2	1	1	2	5	2	1	5	1	5	3	2	2	5	4	4	3	3	3	5	Haven't visited	5	1	Haven't visited	With company	Price
+6	1	1	2	2	5	1	5	2	3	1	5	5	1	Haven't visited	2	2	5	1	1	Haven't visited	Haven't visited	3	Haven't visited	3	With company	Distance
+7	2	1	2	2	4	3	2	2	1	1	4	4	3	Haven't visited	2	3	3	3	3	2	Haven't visited	2	Haven't visited	4	With company	Both
+8	1	1	1	2	3	3	3	2	1	2	3	4	1	2	2	Haven't visited	2	2	3	5	Haven't visited	3	Haven't visited	Haven't visited	With company	Price
+9	1	1	1	2	4	2	5	3	5	1	4	5	5	4	5	Haven't visited	4	5	5	5	Haven't visited	Haven't visited	2	Haven't visited	With company	Distance
+10	1	1	2	2	3	3	3	1	1	1	5	5	1	3	2	Haven't visited	Haven't visited	Haven't visited	2	4	Haven't visited	4	Haven't visited	Haven't visited	With company	Distance
+11	1	2	2	2	4	2	3	3	2	1	3	4	Haven't visited	Haven't visited	5	Haven't visited	4	Haven't visited	Haven't visited	Haven't visited	Haven't visited	4	Haven't visited	3	With company	Both
+12	1	2	1	2	5	4	1	3	1	2	3	5	3	5	4	4	3	3	2	3	4	2	4	Haven't visited	With company	Distance
+13	1	1	1	2	5	3	4	3	5	1	5	4	3	5	3	3	4	4	3	4	Haven't visited	Haven't visited	Haven't visited	Haven't visited	With company	Both
+14	1	1	2	2	5	1	3	5	4	4	5	5	2	3	1	3	3	Haven't visited	3	4	Haven't visited	NA	5	5	With company	Both
+15	1	1	1	2	3	4	3	3	2	2	4	5	Haven't visited	4	3	Haven't visited	3	4	3	4	Haven't visited	4	Haven't visited	Haven't visited	With company	Both
+16	1	2	1	2	4	1	1	4	1	1	5	5	2	5	2	Haven't visited	4	4	Haven't visited	4	Haven't visited	2	Haven't visited	Haven't visited	With company	Distance
+17	2	1	1	2	5	1	1	5	2	3	4	4	3	5	Haven't visited	Haven't visited	Haven't visited	3	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Alone	Both
+18	2	1	2	2	4	3	3	2	5	2	5	5	4	5	3	3	2	Haven't visited	3	4	Haven't visited	3	Haven't visited	Haven't visited	With company	Distance
+19	2	2	1	2	5	3	5	5	5	4	4	5	Haven't visited	5	3	3	3	4	3	4	Haven't visited	3	Haven't visited	Haven't visited	With company	Price
+20	2	1	2	2	5	2	2	5	2	3	5	5	5	3	4	Haven't visited	5	4	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	With company	Distance
+21	2	2	1	2	5	4	3	4	3	2	3	3	4	5	4	3	5	5	2	5	Haven't visited	3	Haven't visited	Haven't visited	With company	Distance
+22	2	2	2	2	3	5	3	3	2	2	4	3	3	3	4	Haven't visited	4	4	3	5	Haven't visited	3	Haven't visited	Haven't visited	With company	Both
+23	2	1	1	2	3	3	2	3	1	1	3	3	4	Haven't visited	3	Haven't visited	2	4	4	4	Haven't visited	4	Haven't visited	Haven't visited	With company	Distance
+24	1	1	2	2	3	3	1	2	2	2	4	4	2	4	3	4	3	4	3	4	Haven't visited	3	Haven't visited	Haven't visited	With company	Price
+25	1	1	1	2	4	3	1	3	1	2	4	2	3	3	4	2	4	4	4	5	Haven't visited	3	Haven't visited	Haven't visited	With company	Price
+26	2	2	1	2	4	2	4	4	2	5	4	3	3	3	1	Haven't visited	3	3	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	With company	Distance
+27	1	1	1	2	2	4	1	2	1	1	3	3	4	4	3	Haven't visited	1	Haven't visited	3	Haven't visited	Haven't visited	4	Haven't visited	Haven't visited	Alone	Price
+28	2	2	2	2	4	4	5	5	5	5	5	5	4	4	2	4	1	3	5	4	Haven't visited	2	5	5	With company	Distance
+29	1	2	1	2	4	1	1	5	1	2	4	2	3	4	4	Haven't visited	4	4	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	Haven't visited	With company	Distance
+30	1	1	1	2	5	5	2	4	4	2	5	3	3	5	4	3	1	3	4	2	1	4	Haven't visited	Haven't visited	With company	Both
