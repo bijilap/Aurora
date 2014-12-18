@@ -88,23 +88,57 @@ router.get('/addUser', function(req, res) {
   return {message: "end"}
 });
 
-router.get('/:user_id/recommend/activites', function(req,res){
+router.get('/:user_id/recommend/activities', function(req,res){
   var userName = req.params.user_id;
+  var k =3;
+  if("k" in req.query)
+    k=parseInt(req.query.k);
   connection.query('SELECT USERID FROM USERS WHERE USERNAME="'+userName+'"', function(err, rows, fields){
     if (err){
       res.send({error: 5, message: "No such user!"});
     }
     else{
       var userId = parseInt(rows[0]['USERID'])
-      var result =   activity_recommender.getRecommendationSync(userId,3);
+      var result =   activity_recommender.getRecommendationSync(userId,k);
       var n = result.sizeSync();
       var sql="";
       for(var i =0; i<n; i++){
-        sql += "SELECT TITLE FROM ACTIVITY WHERE ITEMID="+result.getSync(i).getKeySync();
+        sql += "SELECT TITLE AS name FROM ACTIVITY WHERE ITEMID="+result.getSync(i).getKeySync();
         if(i<(n-1))
           sql += " UNION ";
       }
-      console.log(sql);
+      connection.query(sql, function(err, rows, fields){
+        if (err){
+          res.send({error: 10, message: "No recommendations!"});
+        }
+        else{
+          res.send({recommendations:rows});
+        }
+      });
+    }
+  });
+});
+
+
+router.get('/:user_id/recommend/restaurants', function(req,res){
+  var userName = req.params.user_id;
+  var k =3;
+  if("k" in req.query)
+    k=parseInt(req.query.k);
+  connection.query('SELECT USERID FROM USERS WHERE USERNAME="'+userName+'"', function(err, rows, fields){
+    if (err){
+      res.send({error: 5, message: "No such user!"});
+    }
+    else{
+      var userId = parseInt(rows[0]['USERID'])
+      var result =   restaurant_recommender.getRecommendationSync(userId,k);
+      var n = result.sizeSync();
+      var sql="";
+      for(var i =0; i<n; i++){
+        sql += "SELECT TITLE AS name FROM RESTAURANT WHERE ITEMID="+result.getSync(i).getKeySync();
+        if(i<(n-1))
+          sql += " UNION ";
+      }
       connection.query(sql, function(err, rows, fields){
         if (err){
           res.send({error: 10, message: "No recommendations!"});
